@@ -149,15 +149,15 @@
   #color-change-2x {
 	-webkit-animation: color-change-2x 12s linear infinite alternate both;
             animation: color-change-2x 12s linear infinite alternate both;
-    max-height: 100vh;
+    max-height: 100%;
     min-height: 100vh;
     padding-top: 50px;
 }
 
  #about {
      background-color: #dddddd;
-     max-height: 100vh;
-     min-height: 100vh
+     max-height: 100%;
+     min-height: 100vh;
  }
 
  #about p {
@@ -187,10 +187,19 @@
 
  #projects {
      margin-top: 30px;
+     justify-content: center;
+     align-content: center;
  }
 
  .responsive {
      width: 90%;
      height: auto;
+     margin: 0 auto;
+     margin-left: 20px;
+     margin-top: 30px;
+ }
+
+ row {
+     margin: 0 auto;
  }
 
