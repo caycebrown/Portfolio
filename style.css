@@ -144,6 +144,8 @@
             margin-top: 15px;
 }
 
+/*---------------------------------------------Anamista CSS code above---------------------------*/
+
   #color-change-2x {
 	-webkit-animation: color-change-2x 12s linear infinite alternate both;
             animation: color-change-2x 12s linear infinite alternate both;
