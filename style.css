@@ -144,36 +144,71 @@
             margin-top: 15px;
 }
 
+/*---------------------------------------------Anamista CSS code above---------------------------*/
+
   #color-change-2x {
 	-webkit-animation: color-change-2x 12s linear infinite alternate both;
             animation: color-change-2x 12s linear infinite alternate both;
-    max-height: 100vh;
+    max-height: 100%;
     min-height: 100vh;
     padding-top: 50px;
 }
 
  #about {
-     padding-top: 60px;
-     padding-bottom: 60px;
      background-color: #dddddd;
-     max-height: 100vh;
-     min-height: 100vh
+     max-height: 100%;
+     min-height: 100vh;
+     padding-top: 30px;
+ }
+
+ #about p {
+     color: #333;
+     font-weight: bold;
+     font-size: 1vw;
+     line-height: 2;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+
+ #about h3 {
+    padding-top: 60px;
+    padding-bottom: 60px;
  }
 
  h1 {
      color: white;
-     font-size: 6vw;
+     font-size: 5vw;
  }
 
  #subheading {
      color: #333;
-     font-size: 40px;
+     font-size: 3vw;
      margin-top: 15px;
      font-weight: bold;
  }
 
  #projects {
      margin-top: 30px;
+     justify-content: center;
+     align-content: center;
  }
 
+ .responsive {
+     width: 100%;
+     height: auto;
+     margin: 0;
+     padding-left: 15px;
+     border: 0;
+
+ }
+
+
+
+ /* --------------------------------Custom Media Queries-----------------------*/
+
+ @media only screen and (max-width: 600px) {
+  #about p {
+    font-size: 10px;
+  }
+}
 
