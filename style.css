@@ -230,6 +230,10 @@ body::-webkit-scrollbar { /* WebKit */
     padding-top: 60px;
 }
 
+#contact .h1 {
+    color: #333;
+}
+
 
 
 
