@@ -154,6 +154,8 @@ html body {
     overflow-x: hidden;
 }
 
+/*-------------------------------------------Hiding extra white space on right margin and scrollbar------------*/
+
 body {
     overflow-y: scroll;
     scrollbar-width: none; /* Firefox */
@@ -164,7 +166,7 @@ body::-webkit-scrollbar { /* WebKit */
     height: 0;
 }
 
-  
+ /*-------------------------------------color changing header------------------------------------*/ 
 
 #color-change-2x {
 	-webkit-animation: color-change-2x 12s linear infinite alternate both;
@@ -173,6 +175,8 @@ body::-webkit-scrollbar { /* WebKit */
     min-height: 100vh;
     padding-top: 50px;
 }
+
+
 
  #about {
      background-color: white;
@@ -240,8 +244,16 @@ body::-webkit-scrollbar { /* WebKit */
     padding-bottom: 30px;
 }
 
-#formGroupInput3 {
-    padding: 40px;
+#buttons {
+    margin: auto 0;
+}
+
+#footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #333;
+    text-align: center;
+    color: #dddddd;
 }
 /*----------------font awesome social media icons styling below-----------------*/
 
