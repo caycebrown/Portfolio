@@ -230,8 +230,46 @@ body::-webkit-scrollbar { /* WebKit */
     padding-top: 60px;
 }
 
+#contact {
+    max-height: 100%;
+    min-height: 100vh;    
+}
+
 #contact .h1 {
     color: #333;
+    padding-bottom: 30px;
+}
+
+/*----------------font awesome social media icons styling below-----------------*/
+
+.fa {
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
 }
 
 
