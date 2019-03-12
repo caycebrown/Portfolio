@@ -240,6 +240,9 @@ body::-webkit-scrollbar { /* WebKit */
     padding-bottom: 30px;
 }
 
+#formGroupInput3 {
+    padding: 40px;
+}
 /*----------------font awesome social media icons styling below-----------------*/
 
 .fa {
