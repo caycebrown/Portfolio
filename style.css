@@ -146,7 +146,29 @@
 
 /*---------------------------------------------Anamista CSS code above---------------------------*/
 
-  #color-change-2x {
+html body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+body::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+  
+
+
+
+#color-change-2x {
 	-webkit-animation: color-change-2x 12s linear infinite alternate both;
             animation: color-change-2x 12s linear infinite alternate both;
     max-height: 100%;
@@ -191,7 +213,6 @@
      width: 100%;
      height: auto;
      margin: 0;
-     padding-left: 15px;
      border: 0;
 
  }
@@ -203,8 +224,8 @@
  }
 
  #projects {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    justify-content: space-around;
 }
 
 
