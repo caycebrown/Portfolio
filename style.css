@@ -203,7 +203,7 @@ body::-webkit-scrollbar { /* WebKit */
  #subheading {
      color: #333;
      font-size: 3vw;
-     margin-top: 15px;
+     margin-top: 30px;
      font-weight: bold;
  }
 
@@ -240,6 +240,6 @@ body::-webkit-scrollbar { /* WebKit */
     font-size: 10px;
   }
 
-  
+
 }
 
