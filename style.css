@@ -146,7 +146,27 @@
 
 /*---------------------------------------------Anamista CSS code above---------------------------*/
 
-  #color-change-2x {
+html body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+body::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+  
+
+#color-change-2x {
 	-webkit-animation: color-change-2x 12s linear infinite alternate both;
             animation: color-change-2x 12s linear infinite alternate both;
     max-height: 100%;
@@ -155,7 +175,7 @@
 }
 
  #about {
-     background-color: #dddddd;
+     background-color: white;
      max-height: 100%;
      min-height: 100vh;
      padding-top: 30px;
@@ -183,24 +203,33 @@
  #subheading {
      color: #333;
      font-size: 3vw;
-     margin-top: 15px;
+     margin-top: 30px;
      font-weight: bold;
- }
-
- #projects {
-     padding-top: 80px;
-     padding-bottom: 80px;
-     background-color: lightseagreen;
  }
 
  .responsive {
      width: 100%;
      height: auto;
      margin: 0;
-     padding-left: 15px;
      border: 0;
 
  }
+
+ .h1 {
+     font-size: 4vw;
+     color: white;
+ }
+
+ #portfolio {
+    background-color: lightseagreen;
+    max-height: 100%;
+    min-height: 100vh;
+ }
+
+ #projects {
+    padding-top: 60px;
+}
+
 
 
 
@@ -210,5 +239,7 @@
   #about p {
     font-size: 10px;
   }
+
+
 }
 
