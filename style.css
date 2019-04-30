@@ -263,9 +263,57 @@ body::-webkit-scrollbar { /* WebKit */
  /* --------------------------------Custom Media Queries-----------------------*/
 
  @media only screen and (max-width: 600px) {
-  #about p {
-    font-size: 20px;
+
+}
+
+@media only screen and (max-width: 767px) {
+  #buttons {
+    display: contents;
   }
 
+  #contact-form {
+    width: 90%;
+  }
+
+  .contact-buttons {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  p.h1 {
+    font-size: 30px;
+  }
+
+  #about p {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  #about-content {
+    display: block;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 988px) {
+    
+  #projects, #projects-2 {
+    margin: 0;
+    padding: 0; 
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .p-item {
+    display: contents;
+  }
+
+  .spacer {
+    display: none;
+  }
 
 }
