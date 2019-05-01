@@ -206,16 +206,21 @@ body::-webkit-scrollbar { /* WebKit */
     background-color: lightseagreen;
     max-height: 100%;
     min-height: 100vh;
-    padding-bottom: 60px;
  }
 
  #projects {
     padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#projects-2 {
+  padding-bottom: 60px;
 }
 
 #contact {
     max-height: 100%;
-    min-height: 100vh;    
+    min-height: 100vh;  
+    padding-bottom: 60px;  
 }
 
 #contact .h1 {
