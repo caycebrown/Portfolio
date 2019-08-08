@@ -162,6 +162,10 @@ body::-webkit-scrollbar { /* WebKit */
      padding-top: 30px;
  }
 
+ #about-img {
+   max-height: 50vh;
+ }
+
  #about p {
      color: #333;
      font-weight: bold;
@@ -190,10 +194,11 @@ body::-webkit-scrollbar { /* WebKit */
  }
 
  .responsive {
-     width: 100%;
+     width: 80%;
      height: auto;
      margin: 0;
      border: 0;
+     box-shadow: 0px 6px 6px black;
 
  }
 
