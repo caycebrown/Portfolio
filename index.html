@@ -4,169 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
     <title>Document</title>
 </head>
 <body>
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-               <a class="nav-link active" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-        </ul>
 
-        <div id="color-change-2x">
-            <container class="container-fluid">
-                <row class="row">
-                    <div class="col-md" id="left-header">
-                        <h1 class="text-focus-in">Hello, Welcome to my portfolio!</h1>
-                        <p class="text-focus-in" id="subheading">Find something neat.<p>
-                        <button type="button" class="btn btn-primary" id="explore jello-horizontal">Explore</button>
-                    </div>
-                    <div class="col-md" id="right-header"></div>
-                    </div>
-                </row>
-
-            </container>
+    <div id="about">
+        <div>
+            <h1 class="text-flicker-in-glow" id="title">Welcome</h1>
         </div>
-        
-        <div  id="about">
-            <div class="container-fluid">
-                <div class="row" id="about-content">
-                    <div class="col-1"></div>
-                    <div class="col-lg" id="about-text">
-                        <h2>About Me</h2>
-                        <p>Hello, my name is Cayce and I am a beginning full-stack web developer who has recently graduated from the 6-month Full-Stack Dev bootcamp at the University of Texas! One of my favorite things about web development is the creativity allowed in UX/UI design. Getting a chance to bring innovative and engaging web applications to life is something that I look forward too! As a logic-lover and problem solver, programming and development for me is a rewarding activity. If you think so too, then let me know, and lets make something cool together!</p>
+        <div class="row">
+            <h2 class="nav text-focus-in">About</h2>
+            <h2 class="nav text-focus-in">Projects</h2>
+        </div>
+    </div>
 
-                        <p>When I'm not coding or researching development technologies you will find me outdoors. Sunshine, laketime, and anything involving a hike is A+ life material for me. I also enjoy just taking in the simple moments with my wife and daughter - who is already growing at an alarming rate. Thanks for checking out my portfolio!</p>
-                    </div>
-                    <div class="col-lg" id="about-img"><img alt="profile picture" src="assets/image1.jpeg" class="responsive rounded"></div>
-                    <div class="col-1"></div>
-                </div>
+    <div id="skills">
+        <div class="row">
+            <img class="circle headshot" src="assets/image1.jpeg"></img>
+            <div id="bio">
+                <h1>Developer.</h1>
+                <h1>Designer.</h1>
+                <h1>Learner.</h1>
+                <div class="divider"></div>
+                <p>Hello, my name is Cayce and I am a javascript-based full-stack web developer. One of my favorite things about web development is the ability to craft enjoyable experiences a with well planned UX & UI design. Getting a chance to bring innovative and engaging web applications to life is something that I really enjoy! Tackling complex problems and the satisfaction of solving them keeps me pushing onwards to learn and grow each day. If you think so too, then let me know, and lets make something cool together!</p>
+                <p>When I'm not programming or learning new development technologies you will find me outdoors. Sunshine, laketime, and anything involving a little adventure gets an A+ from me. I also enjoy just taking in the simple moments with my wife and daughter - the latter of which is already growing at an alarming rate. Thanks for checking out my portfolio!</p>
             </div>
         </div>
+    </div>
 
-        <div id="portfolio">
-            <div class="container-fluid">
-                
-                <div class="row justify-content-center"><p class="h1">Portfolio</p></div>
+    <div id="language">
+        <h1>Current Skills</h1>
+        <div class="row icons">
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-express-original"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                <i class="devicon-html5-plain-wordmark colored"></i>
+                <i class="devicon-jquery-plain-wordmark colored"></i>
+        </div>
+        <div class="row icons">
+            <i class="devicon-mongodb-plain-wordmark colored"></i>
+            <i class="devicon-mysql-plain-wordmark colored"></i>
+            <i class="devicon-nodejs-plain-wordmark colored"></i>
+            <i class="devicon-react-original-wordmark colored"></i>                
+            <i class="devicon-sequelize-plain-wordmark colored"></i>
+        </div>
+    </div>
 
-                <div class="row justify-content-around" id="projects">
-                    <div class="col-md spacer"></div>
-                    <div class="col-md align-content-center p-item">
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/800x600Goonies.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Goonies Word Guess</h5>
-                              <p class="card-text">Play a Goonies-themed word guessing game.</p>
-                              <a href="https://caycebrown.github.io/Word-Guess-Game/" class="btn btn-primary">Guess It</a>
-                            </div>
-                          </div></div>
-                    <div class="col-md align-content-center p-item">
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/smashlogo.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Super Smash Bros RPG</h5>
-                              <p class="card-text">Stir up nostalgia with a themed "RPG game".</p>
-                              <a href="https://caycebrown.github.io/Unit-4-Game/" class="btn btn-primary">Smash It</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-md align-content-center p-item">
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/trivia.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Trivia Game</h5>
-                              <p class="card-text">This is a short trivia quiz based on the 7 Wonders of the World.</p>
-                              <a href="https://caycebrown.github.io/TriviaGame/" class="btn btn-primary">Trivia</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md spacer"></div>
-                </div>
-                <div class="row justify-content-center" id="projects-2">
-                    <div class="col-sm"></div>
-                    <div class="col-sm align-content-center p-item">
-                        <div class="card" style="width: 18rem;">
-                        <img src="assets/giphy.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Giphy App</h5>
-                          <p class="card-text">A web application demonstrating interaction with the Giphy Api.</p>
-                          <a href="https://caycebrown.github.io/Giphy-App/" class="btn btn-primary">Gif Time</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm align-content-center p-item">
-                        <div class="card" style="width: 18rem;">
-                        <img src="assets/train.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Train Schedule</h5>
-                          <p class="card-text">An app demonstrating time manipulation with momentjs.</p>
-                          <a href="https://caycebrown.github.io/Train-Schedule/" class="btn btn-primary">Go West</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm align-content-center p-item">
-                            <div class="card" style="width: 18rem;">
-                            <img src="assets/datenightapp.JPG" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Date Night App</h5>
-                              <p class="card-text">A simple web application based in the broswer.</p>
-                              <a href="https://ut-group7.github.io/Group7Project/" class="btn btn-primary">Visit App</a>
-                            </div>
-                          </div>
-                        </div>
-                    <div class="col-sm"></div>
-                </div>
+    <div id="projects">
+        <h1>Projects</h1>
+        <div class="row">
+            <div class="col card">
+                <img class="card-img" src="assets/datenightapp.JPG"></img>
+                <h2>Date Night App</h2>
+                <button class="card-button">Go</button>
             </div>
         </div>
+    </div>
 
-        <div id="contact">
-            <div class="container-fluid">
-                <div class="row justify-content-center"><p class="h1">Connect</p></div>
-                <div class="row justify-content-center">
-                    
-                    <div class="col-md-5" id="contact-form">
-                        <form>
-                            <div class="form-group">
-                                  <label for="formGroupInput">Name</label>
-                                  <input type="text" class="form-control" id="formGroupInput" placeholder="">
-                            </div>
-                            <div class="form-group">
-                                  <label for="formGroupInput2">Email</label>                                      
-                                  <input type="email" class="form-control" id="formGroupInput2" placeholder="">
-                            </div>
-                            <div class="form-group">
-                                    <label for="formGroupInput3">Message</label>                                      
-                                    <textarea class="form-control" id="formGroupInput3" rows="3"></textarea>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-md-2" id="buttons">
-                        <div class="row contact-buttons"><a href="blank" class="fa fa-facebook"></a><a href="blank" class="fa fa-linkedin"></a></div>
-                        <div class="row contact-buttons"><a href="blank" class="fa fa-twitter"></a><a href="blank" class="fa fa-instagram"></a></div>
-                    </div>
-                    
-
-                </div>
-
-            </div>
-        </div>
-
-        <div class="row justify-content-center" id="footer"><h6>Copyright &copy; Cayce Brown 2019</h6></div>
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
