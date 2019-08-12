@@ -159,7 +159,7 @@ h1 {
   bottom: 0;
   content: '';
   display: block;
-  height: 50%;
+  height: 25%;
   left: 0;
   position: relative;
   right: 0;
@@ -171,7 +171,7 @@ h1 {
 }
 
 #projects h1 {
-  transform: translateY(-40vh);
+  transform: translateY(-20vh);
   text-align: center;
   color: aliceblue;
 }
@@ -179,6 +179,13 @@ h1 {
 .card {
   max-width: 400px;
   min-width: fit-content;
+  margin-right: 10px;
+  margin-left: 10px;
+  align-items: center;
+  justify-items: center;
+  background-color: white;
+  padding-bottom: 15px;
+  box-shadow: 0 5px 5px 5px black;
 }
 
 .card-img {
@@ -186,11 +193,30 @@ h1 {
   max-height: 300px;
 }
 
+.card h2 {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
 .card-button {
-  border-radius: 9%;
+  border-radius: 5%;
+  background-color: rgb(0, 199, 43);
+  font-size: 20px;
+  font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
   width: 100px;
   height: 40px;
   border: none;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.card-button:hover {
+  background-color: rgb(108, 255, 140);
 }
 
 
