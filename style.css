@@ -277,6 +277,10 @@ h1 {
     flex-direction: column;
     display: inline-flex;
   }
+	
+  .headshot {
+    height: 25%;
+  }
 
   .card-row {
     flex-direction: column;
