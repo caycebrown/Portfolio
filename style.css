@@ -272,7 +272,8 @@ h1 {
   }
 	
   .headshot {
-    height: 40px;
+    height: 120px;
+    width: 120px;
   }
 
   .card-row {
