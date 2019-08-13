@@ -1,5 +1,5 @@
-body {
-  min-width: 100%;
+html, body {
+  width: 100%;
 }
 
 h1 {
