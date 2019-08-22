@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -16,8 +16,8 @@
             <h1 class="text-flicker-in-glow" id="title">Welcome</h1>
         </div>
         <div class="row">
-            <h2 class="nav text-focus-in">About</h2>
-            <h2 class="nav text-focus-in">Projects</h2>
+            <a href="#skills" class="nav text-focus-in">About</a>
+            <a href="#projects" class="nav text-focus-in">Projects</a>
         </div>
     </div>
 
@@ -29,7 +29,7 @@
                 <h1>Designer.</h1>
                 <h1>Learner.</h1>
                 <div class="divider"></div>
-                <p>Hello, my name is Cayce and I am a javascript-based full-stack web developer. One of my favorite things about web development is the ability to craft enjoyable experiences a with well planned UX & UI design. Getting a chance to bring innovative and engaging web applications to life is something that I really enjoy! Tackling complex problems and the satisfaction of solving them keeps me pushing onwards to learn and grow each day. If you think so too, then let me know, and lets make something cool together!</p>
+                <p>Hello, my name is Cayce and I am a javascript-based full-stack web developer. One of my favorite things about web development is the ability to craft enjoyable experiences with a well-planned UX & UI design. Getting a chance to bring innovative and engaging web applications to life is something that I really enjoy! Tackling complex problems and the satisfaction of solving them keeps me pushing onwards to learn and grow each day. If you think so too, then let me know, and lets make something cool together!</p>
                 <p>When I'm not programming or learning new development technologies you will find me outdoors. Sunshine, laketime, and anything involving a little adventure gets an A+ from me. I also enjoy just taking in the simple moments with my wife and daughter - the latter of which is already growing at an alarming rate. Thanks for checking out my portfolio!</p>
             </div>
         </div>
@@ -56,28 +56,34 @@
 
     <div id="projects">
         <h1>Projects</h1>
-        <div class="row">
+        <div class="row card-row">
+
             <div class="col card">
                 <img class="card-img" src="assets/datenightapp.JPG"></img>
                 <h2>Date Night App</h2>
+                <h3>Javascript - jQuery - HTML - CSS</h3>
                 <div class="row">
-                    <a href="https://ut-group7.github.io/Group7Project/"></a><button class="card-button">Demo</button>
-                    <a href="https://github.com/ut-group7/Group7Project"></a><button class="card-button">{Code}</button>
+                    <a href="https://ut-group7.github.io/Group7Project/" class="card-btn">Demo</a>
+                    <a href="https://github.com/ut-group7/Group7Project" class="card-btn">{Code}</a>
                 </div>
             </div>
+
             <div class="col card">
                 <img class="card-img" src="assets/news.jpg"></img>
-                <h2>MERN Newscraper</h2>
+                <h2>News Scraper</h2>
+                <h3>Mongo - Express - Reactjs - Nodejs</h3>
                 <div class="row">
-                    <a href="https://morning-plains-25336.herokuapp.com/"><button class="card-button">Demo</button></a>
-                    <a href="https://github.com/caycebrown/MERN-News-Scraper"><button class="card-button">{Code}</button></a>
+                    <a href="https://morning-plains-25336.herokuapp.com/" class="card-btn">Demo</a>
+                    <a href="https://github.com/caycebrown/MERN-News-Scraper" class="card-btn">{Code}</a>
                 </div>
             </div>
+
             <div class="col card">
                 <img class="card-img" src="assets/construction.jpg"></img>
                 <h2>See Me Work</h2>
+                <h3>Full-stack app in progress</h3>
                 <div class="row">
-                    <a href="https://github.com/ut-group7/DogBook"><button class="card-button">{Code}</button></a>
+                    <a href="https://github.com/ut-group7/DogBook" class="card-btn">{Code}</a>
                 </div>
             </div>
         </div>
