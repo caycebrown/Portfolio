@@ -103,7 +103,7 @@ h1 {
 
 .headshot {
   height: 50vh;
-  width: 50vh;
+  width: auto;
   margin-left: 12vw;
 }
 
