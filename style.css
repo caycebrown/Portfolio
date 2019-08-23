@@ -245,6 +245,7 @@ h1 {
 }
 
 #footer {
+  border-top: 4px solid cyan;
   color: cyan;
   background-color: black;
   padding-top: 100px;
